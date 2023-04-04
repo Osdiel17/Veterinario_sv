@@ -16,7 +16,7 @@ include('config.php');
 
 <body>
     <div class="container shadow-lg p-3 mb-5 bg-white rounded">
-        <form action="Registro_usuario.php" class="row g-3" method="post">
+        <form action="insert_usuarios.php" class="row g-3" method="post" id="form_usuarios">
             <h3>Registro de Usuarios <img src="img/usuarios.png" alt="" width="80px" height="80px"></h3>
             <div class="col-5">
                 <div class="input-group mb-3">
@@ -42,7 +42,7 @@ include('config.php');
                 <div class="input-group mb-3">
                     <span class="input-group-text"><i class="bi bi-envelope-at-fill"></i></span>
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username" name="ema" id="ema" require>
+                        <input type="email" class="form-control" id="floatingInputGroup1" placeholder="Username" name="ema" id="ema" require>
                         <label for="floatingInputGroup1">Email:</label>
                     </div>
                 </div>

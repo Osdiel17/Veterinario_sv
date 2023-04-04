@@ -15,7 +15,7 @@
 <body>
 
     <div class="container shadow-lg p-3 mb-5 bg-white rounded">
-        <form action="Registro_cliente.php" class="row g-3" method="post">
+        <form action="insert_clientes.php" class="row g-3" method="post" id="form_clientes">
             <h3>Registro del Cliente <img src="img/cliente.png" alt="" width="80px" height="80px"></h3>
             <div class="col-5">
                 <div class="input-group mb-3">

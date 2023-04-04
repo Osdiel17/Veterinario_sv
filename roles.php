@@ -14,7 +14,7 @@
 
 <body>
     <div class="container shadow-lg p-3 mb-5 bg-white rounded">
-        <form action="Registro_roles.php" class="row g-3" method="post">
+        <form action="insert_roles.php" class="row g-3" method="post" id="form_roles">
             <h3>Registro de Roles <img src="img/roles.png" alt="" width="80px" height="80px"></h3>
             <div class="col-5">
                 <div class="input-group mb-3">

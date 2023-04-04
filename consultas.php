@@ -16,7 +16,7 @@ include('config.php');
 
 <body>
     <div class="container shadow-lg p-3 mb-5 bg-white rounded">
-        <form action="Registro_consultas.php" class="row g-3" method="post">
+        <form action="insert_consultas.php" class="row g-3" method="post" id="form_consultas">
             <h3>Registro de Consultas <img src="img/medical-report.png" alt="" width="80px" height="80px"></h3>
             <div class="col-5">
                 <div class="input-group mb-3">

@@ -5,7 +5,7 @@ if (isset($_POST['usuario']) && isset($_POST['password'])) {
     $username = $_POST['usuario'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM usuario WHERE usuario = :usuario AND password = :password";
+    $sql = "SELECT * FROM usuario WHERE usuarios = :usuario AND password = :password";
 
     $stmt = $pdo->prepare($sql);
 
@@ -16,6 +16,7 @@ if (isset($_POST['usuario']) && isset($_POST['password'])) {
         // Si hay un resultado, el usuario existe y la contraseña es correcta. 
         if ($stmt->rowCount() > 0) {
             // Iniciar sesión o hacer lo que sea necesario. 
+            
             echo "<script>alert('¡Usuario y contraseña Correctos!'); window.location = 'principal.php';</script>";
             exit;
         } else {

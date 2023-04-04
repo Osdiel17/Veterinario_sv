@@ -16,8 +16,8 @@ include('config.php');
 
 <body>
     <div class="container shadow-lg p-3 mb-5 bg-white rounded">
-        <form action="Registro_mascota.php" class="row g-3" method="post">
-            <h3>Registro de Mascota <img src="img/logoMascotas.png" alt="" width="80px" height="80px" ></h3>
+        <form action="insert_mascotas.php" class="row g-3" method="post" id="form_mascotas">
+            <h3>Registro de Mascota <img src="img/logoMascotas.png" alt="" width="80px" height="80px"></h3>
 
             <div class="col-5">
                 <div class="input-group mb-3">
